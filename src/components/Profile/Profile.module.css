@@ -43,12 +43,13 @@
   font-size: 22px;
   font-weight: bold;
   color: #21485e;
+  transition: transform 200ms linear;
 }
 
 .name:hover {
   cursor: pointer;
   margin-top: 30px;
-  font-size: 24px;
+  transform: scale(1.1);
   color: #668190;
 }
 
@@ -56,11 +57,12 @@
   margin-top: 7px;
   font-size: 14px;
   color: #54646c;
+  transition: transform 200ms linear;
 }
 
 .tag:hover {
   cursor: pointer;
-  font-size: 16px;
+  transform: scale(1.1);
   color: #ffffff;
 }
 
@@ -80,16 +82,4 @@
 
 .label {
   font-size: 14px;
-}
-
-/* - */
-
-@media screen and (max-width: 575px) {
-  .profile {
-    width: 96%;
-  }
-
-  .description {
-    padding: 10px 20px;
-  }
 }
