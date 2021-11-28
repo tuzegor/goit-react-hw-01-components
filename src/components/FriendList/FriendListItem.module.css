@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  max-width: 300px;
+  height: 70px;
+  padding: 10px;
+  border: 5px solid #21485e;
+  border-radius: 15px;
+  background-color: #7ea0b3;
+
+  transition: transform 200ms linear;
+}
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00000033;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.status {
+  display: block;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #21485e;
+}
