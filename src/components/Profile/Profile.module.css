@@ -1,6 +1,6 @@
 .profile {
   max-width: 250px;
-  margin: 150px auto 0;
+  margin: 100px auto 0;
   background-color: #a7bcc8;
   box-shadow: 0 10px 90px #00000024;
   text-align: center;
@@ -22,7 +22,7 @@
   transform: translate(-50%, -50%);
   border: 8px solid #21485e;
   box-shadow: 0 0 20px #00000033;
-  background-color: #ffffff;
+  background-color: #d6eaf3;
 }
 
 .avatar:hover {
@@ -40,7 +40,7 @@
 
 .name {
   margin-top: 30px;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
   color: #21485e;
   transition: transform 200ms linear;
@@ -63,12 +63,13 @@
 .tag:hover {
   cursor: pointer;
   transform: scale(1.1);
-  color: #ffffff;
+  color: #eaf3f8;
 }
 
 .location {
   margin-top: 10px;
   font-size: 14px;
+  color: #eaf3f8;
 }
 
 /* - */
@@ -78,8 +79,10 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 20px 0 20px 0;
+  font-size: 20px;
+  color: #eaf3f8;
 }
 
 .label {
-  font-size: 14px;
+  font-size: 18px;
 }

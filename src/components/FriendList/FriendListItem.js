@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import s from './FriendListItem.module.css';
 
-function FriendListItem({ avatar, name, isOnline }) {
+function FriendListItem({ avatar, name, isOnline, id }) {
   return (
-    <li className={s.item}>
+    <li className={s.item} id={id}>
       {isOnline ? (
         <span
           className={s.status}

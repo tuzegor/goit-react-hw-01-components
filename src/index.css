@@ -1,11 +1,8 @@
 @import-normalize;
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  transition: 0.3s;
 }
 
 body {
@@ -35,4 +32,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.AppItem {
+  margin: 0 auto;
+  padding: 20px;
 }

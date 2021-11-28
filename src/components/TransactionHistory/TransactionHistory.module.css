@@ -1,0 +1,41 @@
+.transactionHistory {
+  max-width: 600px;
+  margin: 50px auto 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  border-spacing: 7px;
+  background-color: #a7bcc8;
+  box-shadow: 0 10px 90px #00000024;
+}
+th {
+  font-size: 24px;
+  font-weight: normal;
+  color: #eaf3f8;
+  background-color: #21485e;
+}
+td {
+  color: #21485e;
+  background-color: #7ea0b3;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 460px) {
+  .transactionHistory {
+    font-size: 14px;
+    padding: 10px;
+  }
+  th {
+    font-size: 16px;
+  }
+  th,
+  td {
+    padding: 8px 10px;
+  }
+}
